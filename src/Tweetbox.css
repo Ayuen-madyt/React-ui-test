@@ -21,6 +21,9 @@
     border: none;
     outline: none;
   }
+  .tweetBox__input > input:focus{
+    border:1px solid var(--twitter-color);
+  }
   
   .tweetBox__imageInput {
     border: none;
